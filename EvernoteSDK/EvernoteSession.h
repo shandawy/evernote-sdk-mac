@@ -135,6 +135,8 @@ typedef NS_ENUM(NSInteger, ENSessionState) {
 /** The business user object. */
 @property (nonatomic,strong) EDAMUser* businessUser;
 
+@property (nonatomic,strong) NSString* responseString;
+
 ///---------------------------------------------------------------------------------------
 /// @name Session handling
 ///---------------------------------------------------------------------------------------
