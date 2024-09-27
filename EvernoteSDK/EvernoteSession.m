@@ -684,6 +684,7 @@
                                                                       code:EDAMErrorCode_INTERNAL_ERROR
                                                                   userInfo:nil]];
         } else {
+            self.responseString = string;
             // add auth info to our credential store, saving to user defaults and keychain
             [self saveCredentialsWithEdamUserId:edamUserId
                                    noteStoreUrl:noteStoreUrl
